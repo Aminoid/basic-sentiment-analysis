@@ -1,0 +1,191 @@
+[2017-01-21 21:18:55,381] INFO KafkaConfig values: 
+	advertised.host.name = null
+	metric.reporters = []
+	quota.producer.default = 9223372036854775807
+	offsets.topic.num.partitions = 50
+	log.flush.interval.messages = 9223372036854775807
+	auto.create.topics.enable = true
+	controller.socket.timeout.ms = 30000
+	log.flush.interval.ms = null
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	replica.socket.receive.buffer.bytes = 65536
+	min.insync.replicas = 1
+	replica.fetch.wait.max.ms = 500
+	num.recovery.threads.per.data.dir = 1
+	ssl.keystore.type = JKS
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	default.replication.factor = 1
+	ssl.truststore.password = null
+	log.preallocate = false
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	fetch.purgatory.purge.interval.requests = 1000
+	ssl.endpoint.identification.algorithm = null
+	replica.socket.timeout.ms = 30000
+	message.max.bytes = 1000012
+	num.io.threads = 8
+	offsets.commit.required.acks = -1
+	log.flush.offset.checkpoint.interval.ms = 60000
+	delete.topic.enable = false
+	quota.window.size.seconds = 1
+	ssl.truststore.type = JKS
+	offsets.commit.timeout.ms = 5000
+	quota.window.num = 11
+	zookeeper.connect = localhost:2181
+	authorizer.class.name = 
+	num.replica.fetchers = 1
+	log.retention.ms = null
+	log.roll.jitter.hours = 0
+	log.cleaner.enable = true
+	offsets.load.buffer.size = 5242880
+	log.cleaner.delete.retention.ms = 86400000
+	ssl.client.auth = none
+	controlled.shutdown.max.retries = 3
+	queued.max.requests = 500
+	offsets.topic.replication.factor = 3
+	log.cleaner.threads = 1
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	socket.request.max.bytes = 104857600
+	ssl.trustmanager.algorithm = PKIX
+	zookeeper.session.timeout.ms = 6000
+	log.retention.bytes = -1
+	log.message.timestamp.type = CreateTime
+	sasl.kerberos.min.time.before.relogin = 60000
+	zookeeper.set.acl = false
+	connections.max.idle.ms = 600000
+	offsets.retention.minutes = 1440
+	replica.fetch.backoff.ms = 1000
+	inter.broker.protocol.version = 0.10.0-IV1
+	log.retention.hours = 168
+	num.partitions = 1
+	broker.id.generation.enable = true
+	listeners = null
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	log.roll.ms = null
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	ssl.cipher.suites = null
+	log.index.size.max.bytes = 10485760
+	ssl.keymanager.algorithm = SunX509
+	security.inter.broker.protocol = PLAINTEXT
+	replica.fetch.max.bytes = 1048576
+	advertised.port = null
+	log.cleaner.dedupe.buffer.size = 134217728
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	log.cleaner.io.buffer.size = 524288
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	zookeeper.connection.timeout.ms = 6000
+	controlled.shutdown.retry.backoff.ms = 5000
+	log.roll.hours = 168
+	log.cleanup.policy = delete
+	host.name = 
+	log.roll.jitter.ms = null
+	max.connections.per.ip = 2147483647
+	offsets.topic.segment.bytes = 104857600
+	background.threads = 10
+	quota.consumer.default = 9223372036854775807
+	request.timeout.ms = 30000
+	log.message.format.version = 0.10.0-IV1
+	log.index.interval.bytes = 4096
+	log.dir = /tmp/kafka-logs
+	log.segment.bytes = 1073741824
+	log.cleaner.backoff.ms = 15000
+	offset.metadata.max.bytes = 4096
+	ssl.truststore.location = null
+	group.max.session.timeout.ms = 300000
+	ssl.keystore.password = null
+	zookeeper.sync.time.ms = 2000
+	port = 9092
+	log.retention.minutes = null
+	log.segment.delete.delay.ms = 60000
+	log.dirs = /tmp/kafka-logs
+	controlled.shutdown.enable = true
+	compression.type = producer
+	max.connections.per.ip.overrides = 
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	auto.leader.rebalance.enable = true
+	leader.imbalance.check.interval.seconds = 300
+	log.cleaner.min.cleanable.ratio = 0.5
+	replica.lag.time.max.ms = 10000
+	num.network.threads = 3
+	ssl.key.password = null
+	reserved.broker.max.id = 1000
+	metrics.num.samples = 2
+	socket.send.buffer.bytes = 102400
+	ssl.protocol = TLS
+	socket.receive.buffer.bytes = 102400
+	ssl.keystore.location = null
+	replica.fetch.min.bytes = 1
+	broker.rack = null
+	unclean.leader.election.enable = true
+	sasl.enabled.mechanisms = [GSSAPI]
+	group.min.session.timeout.ms = 6000
+	log.cleaner.io.buffer.load.factor = 0.9
+	offsets.retention.check.interval.ms = 600000
+	producer.purgatory.purge.interval.requests = 1000
+	metrics.sample.window.ms = 30000
+	broker.id = 0
+	offsets.topic.compression.codec = 0
+	log.retention.check.interval.ms = 300000
+	advertised.listeners = null
+	leader.imbalance.per.broker.percentage = 10
+ (kafka.server.KafkaConfig)
+[2017-01-21 21:18:55,627] INFO starting (kafka.server.KafkaServer)
+[2017-01-21 21:18:55,661] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2017-01-21 21:19:01,813] INFO Loading logs. (kafka.log.LogManager)
+[2017-01-21 21:19:01,941] WARN Found a corrupted index file, /tmp/kafka-logs/twitterstream-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-01-21 21:19:02,285] INFO Completed load of log twitterstream-0 with log end offset 65550 (kafka.log.Log)
+[2017-01-21 21:19:02,299] INFO Logs loading complete. (kafka.log.LogManager)
+[2017-01-21 21:19:02,421] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2017-01-21 21:19:02,429] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2017-01-21 21:19:02,590] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2017-01-21 21:19:02,593] INFO [Socket Server on Broker 0], Started 1 acceptor threads (kafka.network.SocketServer)
+[2017-01-21 21:19:02,678] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-01-21 21:19:02,680] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-01-21 21:19:02,811] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-01-21 21:19:02,830] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-01-21 21:19:02,831] INFO 0 successfully elected as leader (kafka.server.ZookeeperLeaderElector)
+[2017-01-21 21:19:03,147] INFO New leader is 0 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2017-01-21 21:19:03,150] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-01-21 21:19:03,150] INFO [ExpirationReaper-0], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-01-21 21:19:03,178] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2017-01-21 21:19:03,179] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2017-01-21 21:19:03,213] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 42 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-01-21 21:19:03,257] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-01-21 21:19:03,259] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-01-21 21:19:03,273] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2017-01-21 21:19:14,344] ERROR [KafkaApi-0] Error when handling request {topics=[twitterstream]} (kafka.server.KafkaApis)
+kafka.admin.AdminOperationException: replication factor: 1 larger than available brokers: 0
+	at kafka.admin.AdminUtils$.assignReplicasToBrokers(AdminUtils.scala:117)
+	at kafka.admin.AdminUtils$.createTopic(AdminUtils.scala:403)
+	at kafka.server.KafkaApis.kafka$server$KafkaApis$$createTopic(KafkaApis.scala:629)
+	at kafka.server.KafkaApis$$anonfun$29.apply(KafkaApis.scala:670)
+	at kafka.server.KafkaApis$$anonfun$29.apply(KafkaApis.scala:666)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:94)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:47)
+	at scala.collection.SetLike$class.map(SetLike.scala:92)
+	at scala.collection.AbstractSet.map(Set.scala:47)
+	at kafka.server.KafkaApis.getTopicMetadata(KafkaApis.scala:666)
+	at kafka.server.KafkaApis.handleTopicMetadataRequest(KafkaApis.scala:727)
+	at kafka.server.KafkaApis.handle(KafkaApis.scala:79)
+	at kafka.server.KafkaRequestHandler.run(KafkaRequestHandler.scala:60)
+	at java.lang.Thread.run(Thread.java:745)
+[2017-01-21 21:19:18,335] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-01-21 21:19:18,344] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-01-21 21:19:18,567] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [twitterStream,0],[twitterstream,0] (kafka.server.ReplicaFetcherManager)
+[2017-01-21 21:19:18,585] WARN Found a corrupted index file, /tmp/kafka-logs/twitterStream-0/00000000000000000000.index, deleting and rebuilding index... (kafka.log.Log)
+[2017-01-21 21:19:18,791] INFO Recovering unflushed segment 0 in log twitterStream-0. (kafka.log.Log)
+[2017-01-21 21:19:18,948] INFO Completed load of log twitterStream-0 with log end offset 65550 (kafka.log.Log)
+[2017-01-21 21:19:18,952] INFO Created log for partition [twitterStream,0] in /tmp/kafka-logs with properties {compression.type -> producer, message.format.version -> 0.10.0-IV1, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> true, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> delete, flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2017-01-21 21:19:19,003] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions [twitterStream,0],[twitterstream,0] (kafka.server.ReplicaFetcherManager)
+[2017-01-21 21:19:23,359] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT -> EndPoint(192.168.0.2,9092,PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-01-21 21:19:23,374] INFO [Kafka Server 0], started (kafka.server.KafkaServer)
+[2017-01-21 21:29:03,188] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-01-21 21:39:03,209] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-01-21 21:49:03,224] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2017-01-21 21:59:03,244] INFO [Group Metadata Manager on Broker 0]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
